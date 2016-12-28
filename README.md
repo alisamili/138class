@@ -8,3 +8,5 @@
     |head   |varchar(64)|NO    |     |         |              |
     |body   |varchar(64)|NO    |     |         |              |
     |picture|varchar(64)|NO    |     |         |              |
+
+# 牛B
