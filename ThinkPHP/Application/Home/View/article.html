@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .header{
+            position: relative;
+            width: 100%;
+            height: 80px;
+            background-color: #0AAC87;
+        }
+        .header span:first-child{
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            border-radius: 50% 50%;;
+            margin-left: 20px;
+            margin-top: 10px;
+            background: green url('./Public/img/fovor.jpg');
+            background-size: 60px 60px;
+        }
+        .header span:nth-child(2){
+            position: absolute;
+            top: 30px;
+            left: 90px;
+            font-size: 28px;
+            font-weight: bolder;
+            color: white;
+        }
+        .header .enter{
+            position: absolute;
+            right: 70px;
+            top: 40px;
+            color: white;
+        }
+        .header .enter strong{
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .header .enter strong:hover{
+            color: blue;
+        }
+        .navigator{
+            background-color: #FAFAFA;
+        }
+        .title{
+            margin: 0 auto;
+            margin-top: 40px;
+            font-size: 20px;
+            font-weight: bolder;
+            height: 30px;
+            width: 90%;
+            text-align: center;
+            background: #AAAAAA;
+        }
+        .content{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-items: center;
+            height: 400px;
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid #EAEAEA;
+        }
+        .content span{
+            margin-left: 20px;
+            display: block;
+            order: 1;
+            flex: 0 1 20%;
+        }
+        .footer{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            padding: 40px 0;
+            margin-top: 50px;
+            text-align: center;
+            background-color: #0AAC87;
+        }
+        .footer .container{
+            margin: 20px auto;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .footer .contact,.footer .email{
+            margin: 10px auto;
+            font-size: 16px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .glyphicon{
+            font-size: 80px;
+        }
+        .color-blue{
+            color:  blue;
+        }
+        .color-green{
+            color: green;
+        }
+        .clearfix.after{
+            content:'.';
+            height: 0; width: 0; display: block; visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span></span>
+        <span>文章列表</span>
+        <div class="enter clearfix">
+            <strong class="register">注册</strong>
+            <strong class="login">登陆</strong>
+        </div>
+    </div>
+    <div class="navigator">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li role="presentation"><a href="#">首页</a></li>
+            <li role="presentation"><a href="#">课程列表</a></li>
+            <li role="presentation"><a href="#">社区</a></li>
+            <li role="presentation" class="active"><a href="#">文章列表</a></li>
+        </ul>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./Public/img/NO1.jpg" alt="图一">
+        </div>
+        <div class="item">
+          <img src="./Public/img/NO2.jpg" alt="图二">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+	<div class="row">
+		<div class="row-left col-lg-9">
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>文章一</h2>
+              <p>Donec id elit non mi porta gravida at eget metus.  </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>文章二</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>文章三</h2>
+              <p>Donec id elit non mi porta gravida at eget metus.  </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-sm-6 col-lg-6">
+              <h2>文章四</h2>
+              <p>Donec id elit non mi porta gravida at eget metus.  </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+			</div><!--.row-left-->
+			<div class="row-left col-lg-3">
+				<div class="list-group">
+					<a href="#" class="list-group-item active">文章分类</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+					<a href="#" class="list-group-item">Link</a>
+          </div>
+			</div><!--.row-right-->
+          </div><!--/row-->
+    <div class="footer">
+	&copy; Company 2016
+    </div>
+<script type="text/javascript">
+  
+</script>
+</body>
+</html>
