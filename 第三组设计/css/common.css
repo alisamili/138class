@@ -1,0 +1,50 @@
+body {
+	font: 14px/1.5 '微软雅黑';
+	word-wrap: break-word;
+	word-break: break-all;
+	-webkit-text-size-adjust: none;
+	background: #fff;
+	color: #333;
+}
+
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ol,
+blockquote {
+	margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%
+}
+
+a {
+	color: #286a46;
+	text-decoration: none;
+	outline: 0
+}
+
+a:hover,
+a:active {
+	color: #2a6496;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 0;
+}
