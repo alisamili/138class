@@ -1,0 +1,48 @@
+[ 2017-01-02T23:34:05+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php?m=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-02T23:36:15+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php?m=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-02T23:36:20+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-02T23:36:29+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-02T23:36:34+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-02T23:36:58+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-02T23:36:58+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-02T23:36:58+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Article
+
