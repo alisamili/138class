@@ -1,0 +1,252 @@
+[ 2017-01-03T00:33:57+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:33:59+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:34:06+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:35:06+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:35:30+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/m=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:M=index&a=index
+
+[ 2017-01-03T00:35:45+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php?m=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:36:10+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php?m=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:36:16+08:00 ] ::1 /MessageBoard/thinkphp_3.2.3_full/index.php/m=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:M=index&a=index
+
+[ 2017-01-03T00:40:13+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:40:45+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:41:46+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:45:25+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:45:27+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:45:42+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:45:52+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:47:02+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=index&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:48:47+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=Index&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:48:56+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=Index&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:48:59+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php?m=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T00:56:28+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Article
+
+[ 2017-01-03T00:56:33+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T08:57:28+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T08:57:46+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T08:57:53+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T09:04:31+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T09:21:37+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T09:22:32+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/login/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Login
+
+[ 2017-01-03T10:19:42+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/index.php/Index/index2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Index
+
+[ 2017-01-03T21:21:54+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/js/jquery.1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Js
+
+[ 2017-01-03T21:21:54+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/bootstrap-3.3.0/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Bootstrap-3.3.0
+
+[ 2017-01-03T21:21:54+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:21:54+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:07+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:07+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:09+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/bootstrap-3.3.0/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Bootstrap-3.3.0
+
+[ 2017-01-03T21:23:09+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/js/jquery.1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Js
+
+[ 2017-01-03T21:23:09+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:09+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:12+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/bootstrap-3.3.0/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Bootstrap-3.3.0
+
+[ 2017-01-03T21:23:12+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/js/jquery.1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Js
+
+[ 2017-01-03T21:23:12+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/dd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Images
+
+[ 2017-01-03T21:23:12+08:00 ] ::1 /messageboard/thinkphp_3.2.3_full/images/aa.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Images
+
