@@ -1,16 +1,24 @@
 <!DOCTYPE html>
+
+<!-- 以下代码不用管 -->
 <html lang="zh-CN"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
 <meta name="keyword" content="课程">
 <meta name="description" content="知识就是财富">
+
+
+<!-- 注意css链接路径 -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
 <link rel="stylesheet" type="text/css" href="css/yii.css">
-<title>课程</title>
 <link rel="stylesheet" href="css/style.min.css">
+<title>课程</title>
 </head>
+
+
 <body>
+<!-- 以下是头部，这个需要做首页的组联系，然后用老师说的调用 -->
 <div class="head-bar">
 <div class="container ">
 <div style="margin-left: 0px;" class="">
@@ -21,79 +29,101 @@
 <div class="clearfix"></div>
 <div class="main-nav">
 <div style="margin-bottom:0;" class="navbar navbar-inverse"><div class="navbar-inner"><div class="container"><ul class="hidden-phone dxd-navbar-left-items nav" id="yw4"><li><a href="">首页</a></li><li class="active"><a href="kecheng.html">课程</a></li><li><a href="">社区</a></li><li><a href="">文章</a></li></ul><ul class="pull-right hidden-phone dxd-navbar-right-items nav" id="yw5"><li><a href="">注册</a></li><li><a href="">登陆</a></li></ul></div></div></div></div>
+
+
+
+
+
+<!--大盒子，可以不用管-->
 <div style="padding:0 5px">
 <div class="container dxd-container">
 <div class="row visible-phone">
 </div>
+
+<!--分类部分，你需要在这里添加php实现功能-->
 <div class="row" style="margin-top:30px; position:relative">
 <div class="add-course hidden-phone">
 </div>
 <div class="span12">
 <div class="pull-left mr15 light-green" style="font-size:1.2em;line-height:32px;">分类</div>
 <div class="course-category-tabs">
-<ul id="yw0" class="nav nav-pills"><li id="11" class="active"><a>全部</a></li><li id="12"><a>职场技能</a></li><li id="13"><a>创业创新</a></li><li id="14"><a>生活乐趣</a></li></ul></div>
-</div>
+	
+<!--应该是在这添加触发，你做后端应该比我清楚-->
+<ul id="yw0" class="nav nav-pills">
+<li id="11" class="active"><a>全部</a></li>
+<li id="12"><a>职场技能</a></li>
+<li id="13"><a>创业创新</a></li>
+<li id="14"><a>生活乐趣</a></li>
+</ul>
+
 
 </div>
+</div>
+</div>
 
+
+<!--内用部分，就是课程的显示部分-->
 <div class="row">
 <div class="span12">
 <div id="yw3" class="list-view">
 <div class="items">
+	
+	
 <ul class="thumbnails">
-
-
-<li id="1" class="span3" courseid="72">
+	
+	
+	
+<!--每一个课程对应一个<li></li>-->
+<li id="1" class="span3" courseid="61">
 <div class="course-card">
-<a href="index.html?courseid=1"><img style="width: 270px;height:200px;" class="hidden-phone" src="img/1.jpg" alt="image"></a> <div style="border:2px solid #eee;">
-<a style="display:block;color:#333;font-size:18px;   text-align: left;line-height: 28px;padding: 25px 25px 0 25px;" href="index.html?courseid=1">王兴权:敢为路在何方。</a> <div style="padding:18px 25px">
+	
+<a href="index.html?courseid=3">
+	<img style="width: 270px;height:200px;" class="hidden-phone" src="img/3.jpg" alt="image"></a> <div style="border:2px solid #eee;">
+<a style="display:block;color:#333;font-size:18px;   text-align: left;line-height: 28px;padding: 25px 25px 0 25px;" href="index.html?courseid=3">知识改变命运。</a> <div style="padding:18px 25px">
+
 <div class="pull-left">
-<strong class="orange-color">金币：</strong><strong id="jb1" class="orange-color">61</strong>
+    <strong class="orange-color">金币：</strong><strong id="jb3" class="orange-color">75</strong>
 </div>
-<div class="pull-right muted">
-已有&nbsp;36&nbsp;同学
-</div>
+
+<div class="pull-right muted">已有&nbsp;82&nbsp;同学</div>
+
 <div class="clearfix"></div>
 </div>
 </div>
 </div>
 </li>
-<li id="2" class="span3" courseid="69">
-<div class="course-card">
-<a href="index.html?courseid=2"><img style="width: 270px;height:200px;" class="hidden-phone" src="img/2.jpg" alt="image"></a> <div style="border:2px solid #eee;">
-<a style="display:block;color:#333;font-size:18px;   text-align: left;line-height: 28px;padding: 25px 25px 0 25px;" href="index.html?courseid=2">霸王课：一本万利。</a> <div style="padding:18px 25px">
-<div class="pull-left">
-<strong class="orange-color">金币：</strong><strong id="jb2" class="orange-color">66</strong>
+
+
+
+
+</ul>
+
+
 </div>
-<div class="pull-right muted">
-已有&nbsp;4&nbsp;同学
+
+
+
+<!--划分div，不用管-->
+<div class="keys" style="display:none" title="test"><span>72</span><span>71</span><span>70</span><span>69</span><span>68</span><span>67</span><span>66</span><span>65</span><span>64</span><span>61</span><span>60</span><span>59</span><span>58</span><span>57</span><span>56</span><span>55</span><span>54</span><span>52</span><span>51</span><span>50</span><span>49</span><span>48</span><span>47</span><span>46</span><span>45</span><span>44</span><span>43</span><span>42</span><span>41</span><span>40</span><span>39</span><span>38</span></div>
+
 </div>
+</div>
+</div>
+
+
+
+<!--清除浮动div，不用管-->
 <div class="clearfix"></div>
-</div>
-</div>
-</div>
-</li><li id="3" class="span3" courseid="61">
-<div class="course-card">
-<a href=href="index.html?courseid=3"><img style="width: 270px;height:200px;" class="hidden-phone" src="img/3.jpg" alt="image"></a> <div style="border:2px solid #eee;">
-<a style="display:block;color:#333;font-size:18px;   text-align: left;line-height: 28px;padding: 25px 25px 0 25px;" href="index.html?courseid=3">知识改变命运。</a> <div style="padding:18px 25px">
-<div class="pull-left">
-<strong class="orange-color">金币：</strong><strong id="jb3" class="orange-color">75</strong>
-</div>
-<div class="pull-right muted">
-已有&nbsp;82&nbsp;同学
-</div>
-<div class="clearfix"></div>
-</div>
-</div>
-</div>
-</li></ul></div><div class="keys" style="display:none" title="test"><span>72</span><span>71</span><span>70</span><span>69</span><span>68</span><span>67</span><span>66</span><span>65</span><span>64</span><span>61</span><span>60</span><span>59</span><span>58</span><span>57</span><span>56</span><span>55</span><span>54</span><span>52</span><span>51</span><span>50</span><span>49</span><span>48</span><span>47</span><span>46</span><span>45</span><span>44</span><span>43</span><span>42</span><span>41</span><span>40</span><span>39</span><span>38</span></div>
-</div></div>
-</div>
-<div class="clearfix"></div>
+
+
+
+
 </div> 
 </div>
- 
-<div class="clearfix"></div>
+
+
+
+<!-- 以下是尾部，跟头部一样处理，-->
 <div class="light-green-background">
 <div class="container">
 <div class="row">
@@ -130,15 +160,15 @@
 </div>
 </div>
 
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<script type="text/javascript">
-$("#11").click(function(){ $("#1").show();$("#2").show(); $("#3").show();});
-$("#12").click(function(){ $("#1").show();$("#2").hide(); $("#3").hide();});
-$("#13").click(function(){ $("#1").hide();$("#2").show(); $("#3").hide();});
-$("#14").click(function(){ $("#1").hide();$("#2").hide(); $("#3").show();});
-
-</script>
 
 
-</body></html>
+
+
+
+
+
+
+</body>
+
+
+</html>
