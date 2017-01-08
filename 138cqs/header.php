@@ -1,4 +1,5 @@
 <!-- 页面公共顶层 -->
+
 <div class="header">
 	<span></span>
 	<span>
@@ -12,10 +13,8 @@
 	<span class="ActionBar">
 	<?php
 		if (isset($_SESSION["is_logined"]) && $_SESSION["is_logined"] == TRUE) {
-			echo '<a id=\"login\" class=\"LinkButton\" href=\"./logout.php\">注销</a>';
-		} else {
-			var_dump($_SESSION);
-		}
+			echo '<a id=\"login\" class=\"LinkButton\" href="./logout.php">注销</a>';
+		} 
 	?>
 	</span>
 </div>

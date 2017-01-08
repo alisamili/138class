@@ -1,4 +1,6 @@
 <?php 
+	session_set_cookie_params(60*30);
+
 	if (isset($_COOKIE['token']) && isset($_COOKIE['user'])) {
 		//TODO 验证是否登录成功
 		return;
@@ -14,11 +16,10 @@
 			session_start();
 			$_SESSION["is_logined"] = TRUE;
 			$url = "./ucenter.php";  
-			echo "<script language='javascript' type='text/javascript'>";  
-			echo "window.location.href='$url'";  
-			echo "</script>";  
-			exit;
-		} 
+			header("Location:$url");
+			session_write_close();
+			exit(0);
+		}
 	} 
 ?>
 
@@ -26,7 +27,6 @@
 <html lang="zh-CN">
 	<?php
 		$_SESSION['html_head_title'] = '登录';
-		$_SESSION['subhead'] = '——登录';
 		include 'html_head.php';
 	?>
 	<body>
