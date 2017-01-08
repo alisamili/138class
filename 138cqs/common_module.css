@@ -1,0 +1,130 @@
+.header{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #0AAC87;
+}
+.header span:first-child{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	border-radius: 50% 50%;;
+	margin-left: 20px;
+	margin-top: 10px;
+	background: green url('./Public/img/fovor.jpg');
+	background-size: 60px 60px;
+}
+.header span:nth-child(2){
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	font-size: 28px;
+	font-weight: bolder;
+	color: white;
+}
+.header .enter{
+	position: absolute;
+	right: 70px;
+	top: 40px;
+	color: white;
+}
+.header .enter strong{
+	display: inline-block;
+	margin-left: 10px;
+}
+.header .enter strong:hover{
+	color: blue;
+}
+.navigator{
+	background-color: #FAFAFA;
+}
+.title{
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: bolder;
+	height: 30px;
+	width: 90%;
+	text-align: center;
+	background: #AAAAAA;
+}
+.content{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+	height: 400px;
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #EAEAEA;
+}
+.content span{
+	margin-left: 20px;
+	display: block;
+	order: 1;
+	flex: 0 1 20%;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	padding: 40px 0;
+	margin-top: 50px;
+	text-align: center;
+	background-color: #0AAC87;
+}
+.footer .container{
+	margin: 20px auto;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.footer .contact,.footer .email{
+	margin: 10px auto;
+	font-size: 16px;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+.glyphicon{
+	font-size: 80px;
+}
+.color-blue{
+	color:  blue;
+}
+.color-green{
+	color: green;
+}
+.clearfix.after{
+	content:'.';
+	height: 0; width: 0; display: block; visibility: hidden;
+}
+
+.no_radius {
+	border-radius: 0 !important;
+}
+.no_link {
+	color: white;
+	text-decoration: none;
+}
+.cf {
+	zoom: 1;
+}
+.border {
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+}
+.center {
+	padding: 20px 20px 0px;
+}
+.ActionBar {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-right: 20px;
+	padding: 10px;
+	color: white;
+}
+.ActionBar a {
+	color: inherit;
+}
