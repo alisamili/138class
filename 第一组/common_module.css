@@ -128,3 +128,9 @@ img{
 .ActionBar a {
 	color: inherit;
 }
+.Warn {
+	color: red;
+}
+.Pass {
+	color: green;
+}

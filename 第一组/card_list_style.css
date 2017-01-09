@@ -16,7 +16,7 @@
 }
 .card_front, .card_back {
 	box-sizing: border-box;
-	/*width: 255px;*/
+	width: 255px;
 	height: 91px;
 	padding: 20px 15px;
 	display: block;
